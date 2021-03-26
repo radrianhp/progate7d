@@ -1,0 +1,24 @@
+@media screen and(max-width: 1000px){
+  header {
+     flex-direction: column;
+     align-items: flex-start;
+  }
+  .text-wrapper h1{
+  font-size:38px;
+  }
+  .item{
+    width:50%;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and(max-width: 768px){
+  .text-wrapper h1{
+      font-size:28px;
+  }
+
+  .item{
+    width:100%;
+    margin-bottom: 10px;
+  }
+}
